@@ -1,0 +1,82 @@
+/* Original styles for the Divisare case study. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+}
+
+a:focus-visible {
+  outline: 2px solid #31538c;
+  outline-offset: 4px;
+}
+
+.library {
+  max-width: 60rem;
+  margin-inline: auto;
+  padding: 2rem 1rem;
+}
+
+.library-section {
+  padding-block: 1rem 1.5rem;
+  border-top: 1px solid #c8c8c8;
+  margin-top: 1.5rem;
+}
+
+.component-links,
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  list-style: none;
+  padding: 0;
+}
+
+.wordmark {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+}
+
+.project-title {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1.5rem;
+}
+
+.project-caption {
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+.project-meta {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  border-block: 1px solid #222;
+  padding: 0.75rem 0;
+}
+
+.site-nav {
+  margin: 0;
+}
