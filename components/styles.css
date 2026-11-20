@@ -80,3 +80,51 @@ a:focus-visible {
 .site-nav {
   margin: 0;
 }
+
+.collection-heading {
+  border-bottom: 1px solid #222;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-facts {
+  max-width: 32rem;
+  margin: 0;
+}
+
+.project-facts div {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+  padding-block: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.875rem;
+}
+
+.project-facts dt {
+  font-weight: 700;
+}
+
+.project-facts dd {
+  margin: 0;
+}
+
+.project-intro {
+  max-width: 40rem;
+  padding-block: 1rem;
+  border-top: 1px solid #222;
+}
+
+.project-intro .project-title {
+  margin-block: 0.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.project-summary {
+  font-family: Georgia, serif;
+  line-height: 1.7;
+}
